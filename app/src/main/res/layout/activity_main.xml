@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/main_layout"
+    android:background="#bdc3c7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title"
+        android:id="@+id/title"
+        android:textAlignment="center"
+        android:textIsSelectable="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spotify_title"
+        android:id="@+id/spotify_id"
+        android:textAlignment="center"
+        android:background="#e67e22"
+        android:width="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_title"
+        android:id="@+id/score_id"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="false"
+        android:background="#e67e22"
+        android:width="200dp"
+        android:layout_below="@+id/spotify_id"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/library"
+        android:id="@+id/library_id"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="false"
+        android:background="#e67e22"
+        android:width="200dp"
+        android:layout_below="@+id/score_id"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buildit_title"
+        android:id="@+id/buildit_id"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="false"
+        android:background="#e67e22"
+        android:width="200dp"
+        android:layout_below="@+id/library_id"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xyz"
+        android:id="@+id/xyz_id"
+        android:textAlignment="center"
+        android:background="#e67e22"
+        android:width="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buildit_id"
+        android:layout_centerHorizontal="true"
+        android:clickable="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capstone_title"
+        android:id="@+id/capstone_id"
+        android:textAlignment="center"
+        android:layout_alignParentEnd="false"
+        android:background="#e74c3c"
+        android:width="200dp"
+        android:layout_below="@+id/xyz_id"
+        android:layout_centerHorizontal="true"
+        android:clickable="false"
+        android:layout_marginTop="15dp" />
+
+</RelativeLayout>
